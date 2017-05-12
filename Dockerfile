@@ -2,7 +2,7 @@ FROM debian:latest
 
 MAINTAINER Eliott BACKER "eliott.bakcer@gmail.com"
 
-RUN apt-get update && \\
+RUN apt-get update && \
   apt-get install -y openssh-server && \
 	rm -rf /var/lib/apt/lists/* && \
 	apt-get clean
