@@ -1,6 +1,9 @@
-FROM debian:latest
+FROM debian:jessie
 
-MAINTAINER Eliott BACKER "eliott.bakcer@gmail.com"
+MAINTAINER Eliott BACKER "eliott.backer@gmail.com"
+
+# no question/dialog is asked during apt-get install
+ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
   apt-get install -y openssh-server && \
