@@ -19,4 +19,4 @@ ssh -p 2222 root@localhost
 
 Change 2222 to any local port number of your choice.
 
-Please report any issues with the Docker container to https://github.com/EliottBacker/DockerDebianApache/issues
+Please report any issues with the Docker container to https://github.com/EliottBacker/DockerDebian/issues
