@@ -12,7 +12,8 @@ To run ssh in a background process, simply start the container using the followi
 ```
 docker run -d -p 2222:22 --name mysandbox debian-ssh
 ```
-One user exist in the container: root (superuser) 
+One user exist in the container: root (superuser)
+
 To connect to this container as root:
 ```
 ssh -p 2222 root@localhost
