@@ -8,6 +8,9 @@ ENV DEBIAN_FRONTEND noninteractive
 # update 
 RUN apt-get -qq update
 
+# Install some basic tools needed for deployment
+RUN apt-get install -yqq wget curl nano git
+
 # install ssh server
 RUN apt-get install -yqq openssh-server
 
