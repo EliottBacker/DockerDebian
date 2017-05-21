@@ -2,12 +2,12 @@
 
 This image allows to get ssh running on Docker.
 
-## Getting image from a registry
+### Getting image from a registry
 To pull an image from a registry, simply start the container using the following command:
 ```
 docker pull eliottbacker/debian-ssh
 ```
-## Getting it running
+### Getting it running
 To run ssh in a background process, simply start the container using the following command:
 ```
 docker run -d -p 2222:22 --name mysandbox debian-ssh
